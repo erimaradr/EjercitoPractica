@@ -18,8 +18,19 @@ namespace EjercitoPractica1.Models
                 
         }
 
+        public double capacidadDeMovimineto()
+        {
+            throw new NotImplementedException();
+        }
 
-        
+        public void mostrarPrecio()
+        {
+            throw new NotImplementedException();
+        }
 
+        public double resistenciaAlAtaque()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

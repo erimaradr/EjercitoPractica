@@ -12,5 +12,15 @@ namespace EjercitoPractica1.Models
         private float Precio;
 
         private int Velocidad;
+
+        public double capacidadDeMovimineto()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void mostrarPrecio()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
