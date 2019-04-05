@@ -7,5 +7,7 @@ namespace EjercitoWF
 {
     public interface IEjercito
     {
+        void capacidadMilitar();
+
     }
 }

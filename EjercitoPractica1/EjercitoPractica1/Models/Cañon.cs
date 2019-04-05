@@ -12,5 +12,8 @@ namespace EjercitoWF
         private float Precio;
 
         private int PotenciaFuego;
+
+        
+
     }
 }
