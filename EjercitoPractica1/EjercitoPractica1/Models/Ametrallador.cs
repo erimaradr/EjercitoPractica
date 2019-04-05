@@ -13,10 +13,9 @@ namespace EjercitoPractica1.Models
 
         private int Velocidad;
 
-        public Ametrallador(string id, float precio, int velocidad) {
-            this.ID = id;
-                
-        }
+        public float Precio1 { get => Precio; set => Precio = value; }
+        public int Velocidad1 { get => Velocidad; set => Velocidad = value; }
+        public string ID1 { get => ID; set => ID = value; }
 
         public double capacidadDeMovimineto()
         {
