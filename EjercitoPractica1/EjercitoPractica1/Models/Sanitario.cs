@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace EjercitoWF
+namespace EjercitoPractica1.Models
 {
     public class Sanitario : IMovil, IBlindado, IPrecio
     {

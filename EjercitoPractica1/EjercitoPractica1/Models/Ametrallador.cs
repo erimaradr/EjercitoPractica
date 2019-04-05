@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace EjercitoWF
+namespace EjercitoPractica1.Models
 {
     public class Ametrallador : IMovil, IBlindado, IPrecio
     {
@@ -12,5 +12,14 @@ namespace EjercitoWF
         private float Precio;
 
         private int Velocidad;
+
+        public Ametrallador(string id, float precio, int velocidad) {
+            this.ID = id;
+                
+        }
+
+
+        
+
     }
 }

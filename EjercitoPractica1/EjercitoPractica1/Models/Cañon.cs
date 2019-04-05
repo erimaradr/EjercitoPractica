@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace EjercitoWF
+namespace EjercitoPractica1.Models
 {
     public class Cañon : IDestructor, IPrecio
     {
@@ -13,9 +13,5 @@ namespace EjercitoWF
 
         private int PotenciaFuego;
 
-        public double capacidadDeDestruccion()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
