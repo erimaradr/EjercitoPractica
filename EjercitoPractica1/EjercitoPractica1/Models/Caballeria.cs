@@ -7,5 +7,9 @@ namespace EjercitoPractica1.Models
 {
     public class Caballeria : IDivision
     {
+        public void capacidadMilitar()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
