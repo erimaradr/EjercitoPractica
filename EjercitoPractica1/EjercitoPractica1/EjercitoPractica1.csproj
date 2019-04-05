@@ -124,6 +124,24 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Ametrallador.cs" />
+    <Compile Include="Models\Artilleria.cs" />
+    <Compile Include="Models\Caballeria.cs" />
+    <Compile Include="Models\Cañon.cs" />
+    <Compile Include="Models\CañonAA.cs" />
+    <Compile Include="Models\IBlindaje.cs" />
+    <Compile Include="Models\IDestructor.cs" />
+    <Compile Include="Models\IDivision.cs" />
+    <Compile Include="Models\IEjercito.cs" />
+    <Compile Include="Models\Infanteria.cs" />
+    <Compile Include="Models\InfanteriaBasica.cs" />
+    <Compile Include="Models\IPrecio.cs" />
+    <Compile Include="Models\IVelocidad.cs" />
+    <Compile Include="Models\Sanitario.cs" />
+    <Compile Include="Models\Tanque.cs" />
+    <Compile Include="Models\Torpedero.cs" />
+    <Compile Include="Models\Transporte.cs" />
+    <Compile Include="Models\TransporteRapido.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -165,7 +183,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
