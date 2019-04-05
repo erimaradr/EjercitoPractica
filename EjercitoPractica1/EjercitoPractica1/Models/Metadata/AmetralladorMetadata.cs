@@ -6,14 +6,13 @@ using System.Web;
 
 namespace EjercitoPractica1.Models.Metadata
 {
-    [MetadataType(typeof(CañonMetadata))]
+    [MetadataType(typeof(Ametrallador))]
 
-    public partial class Cañon { }
-
-    public partial class CañonMetadata
+    public partial class Ametrallador { }
+    public partial class AmetralladorMetadata
     {
-        [Required(ErrorMessage = "El código del cañon debe tener tres carácteres")]
-        [Display(Name = "Cod. Cañon")]
+        [Required(ErrorMessage = "El código del ametrallador debe tener tres carácteres")]
+        [Display(Name = "Cod. Ametrallador")]
         [MinLength(2, ErrorMessage = "El código debe tener 3 carácteres")]
         [StringLength(4, ErrorMessage = " ")]
         public string ID { get; set; }
@@ -23,8 +22,8 @@ namespace EjercitoPractica1.Models.Metadata
         [DataType(DataType.Currency)]
         public float Precio { get; set; }
 
-        [Required(ErrorMessage = "La potencia de fuego debe ser un entero")]
-        [Display(Name = "Potencia de fuego")]
-        public int PotenciaFuego { get; set; }
+        [Required(ErrorMessage = "La velocidad debe ser un entero")]
+        [Display(Name = "Velocidad")]
+        public int Velocidad { get; set; }
     }
 }
