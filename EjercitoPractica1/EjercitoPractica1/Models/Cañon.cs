@@ -12,5 +12,10 @@ namespace EjercitoWF
         private float Precio;
 
         private int PotenciaFuego;
+
+        public double capacidadDeDestruccion()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
