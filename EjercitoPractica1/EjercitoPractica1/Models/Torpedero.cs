@@ -17,6 +17,12 @@ namespace EjercitoPractica1.Models
 
         private int PotenciaFuego;
 
+        public string ID1 { get => ID; set => ID = value; }
+        public float Precio1 { get => Precio; set => Precio = value; }
+        public int Velocidad1 { get => Velocidad; set => Velocidad = value; }
+        public int PotenciaFuego1 { get => PotenciaFuego; set => PotenciaFuego = value; }
+        public int Blindaje1 { get => Blindaje; set => Blindaje = value; }
+
         public double capacidadDeDestruccion()
         {
             throw new NotImplementedException();
