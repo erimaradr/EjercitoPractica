@@ -14,11 +14,13 @@ namespace EjercitoPractica1.DAL
     public class EjercitoContext: DbContext
     {
 
-        public EjercitoContext() : base("")
+        public EjercitoContext() : base("EjercitoContext")
         {
+
+
         }
 
-        public DbSet<Artilleria> artilleros { get; set; }
+        public DbSet<InfanteriaBasica> infanteriaBasica { get; set; }
        
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
