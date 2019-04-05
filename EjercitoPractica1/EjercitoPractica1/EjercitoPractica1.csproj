@@ -137,6 +137,7 @@
     <Compile Include="Models\InfanteriaBasica.cs" />
     <Compile Include="Models\IPrecio.cs" />
     <Compile Include="Models\IVelocidad.cs" />
+    <Compile Include="Models\Metadata\CañonMetadata.cs" />
     <Compile Include="Models\Sanitario.cs" />
     <Compile Include="Models\Tanque.cs" />
     <Compile Include="Models\Torpedero.cs" />

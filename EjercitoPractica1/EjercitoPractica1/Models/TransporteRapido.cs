@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace EjercitoWF
+namespace EjercitoPractica1.Models
 {
     public class TransporteRapido : IMovil, IPrecio
     {
@@ -12,5 +12,15 @@ namespace EjercitoWF
         private float Precio;
 
         private int Velocidad;
+
+        public double capacidadDeMovimineto()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void mostrarPrecio()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
