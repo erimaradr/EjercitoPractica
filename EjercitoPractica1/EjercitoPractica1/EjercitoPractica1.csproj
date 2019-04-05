@@ -137,6 +137,15 @@
     <Compile Include="Models\InfanteriaBasica.cs" />
     <Compile Include="Models\IPrecio.cs" />
     <Compile Include="Models\IVelocidad.cs" />
+    <Compile Include="Models\Metadata\AmetralladorMetadata.cs" />
+    <Compile Include="Models\Metadata\CañonAAMetadata.cs" />
+    <Compile Include="Models\Metadata\CañonMetadata.cs" />
+    <Compile Include="Models\Metadata\InfanteriaBasicaMetadata.cs" />
+    <Compile Include="Models\Metadata\SanitarioMetadata.cs" />
+    <Compile Include="Models\Metadata\TanqueMetadata.cs" />
+    <Compile Include="Models\Metadata\TorpederoMetadata.cs" />
+    <Compile Include="Models\Metadata\TransporteMetadata.cs" />
+    <Compile Include="Models\Metadata\TransporteRapidoMetadata.cs" />
     <Compile Include="Models\Sanitario.cs" />
     <Compile Include="Models\Tanque.cs" />
     <Compile Include="Models\Torpedero.cs" />
