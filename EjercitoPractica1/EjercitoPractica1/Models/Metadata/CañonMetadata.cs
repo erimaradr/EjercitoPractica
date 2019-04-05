@@ -12,13 +12,18 @@ namespace EjercitoPractica1.Models.Metadata
 
     public partial class CañonMetadata
     {
-        [Required]
-        private string ID;
+        [Required(ErrorMessage = "El código del cañon debe tener tres carácteres")]
+        [Display(Name = "Cod. Cañon")]
+        [MinLength(2, ErrorMessage = "El código debe tener 3 carácteres")]
+        [StringLength(4, ErrorMessage = " ")]
+        private string ID { get; set; }
 
-        [Required]
-        private float Precio;
+        [Required(ErrorMessage = "El precio no puede estar vacío")]
+        [Display(Name = "Precio en €")]
+        private float Precio { get; set; }
 
-        [Required]
-        private int PotenciaFuego;
+        [Required(ErrorMessage = "La potencia de fuego debe ser un entero")]
+        [Display(Name = "Potencia de fuego")]
+        private int PotenciaFuego { get; set; }
     }
 }
