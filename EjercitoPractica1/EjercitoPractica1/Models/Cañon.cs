@@ -13,7 +13,5 @@ namespace EjercitoPractica1.Models
 
         private int PotenciaFuego;
 
-        
-
     }
 }
