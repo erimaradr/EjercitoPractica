@@ -13,11 +13,14 @@ namespace EjercitoPractica1.Models
 
         private int Velocidad;
 
-        public Ametrallador(string iD, float precio, int velocidad)
+        private int Blindaje;
+
+        public Ametrallador(string iD, float precio, int velocidad, int blindaje)
         {
             this.ID1 = iD ?? throw new ArgumentNullException(nameof(iD));
             this.Precio1 = precio;
             this.Velocidad1 = velocidad;
+            this.Blindaje1 = blindaje;
         }
 
         public float Precio1
@@ -52,19 +55,35 @@ namespace EjercitoPractica1.Models
         }
         public string ID1 { get => ID; set => ID = value; }
 
-        public double capacidadDeMovimineto()
+        public int Blindaje1
         {
-            throw new NotImplementedException();
+            get { return Blindaje; }
+            set
+            {
+                if (value < 0)
+                {
+                    Blindaje = 0;
+                }
+                else
+                {
+                    Blindaje = value;
+                }
+            }
         }
 
-        public void mostrarPrecio()
+        public double capacidadDeMovimineto()
         {
-            throw new NotImplementedException();
+            return Velocidad1;
+        }
+
+        public float mostrarPrecio()
+        {
+            return Precio1;
         }
 
         public double resistenciaAlAtaque()
         {
-            throw new NotImplementedException();
+            return Blindaje1;
         }
     }
 }

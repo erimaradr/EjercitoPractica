@@ -8,6 +8,6 @@ using System.Web;
 namespace EjercitoPractica1.DAL
 {
 
-    public class EjercitoContext : DbContext {
+    public class EjercitoContext {
     }
 }

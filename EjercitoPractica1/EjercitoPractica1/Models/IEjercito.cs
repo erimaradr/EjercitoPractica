@@ -7,7 +7,7 @@ namespace EjercitoPractica1.Models
 {
     public interface IEjercito
     {
-        void capacidadMilitar();
+        float capacidadMilitar();
 
     }
 }

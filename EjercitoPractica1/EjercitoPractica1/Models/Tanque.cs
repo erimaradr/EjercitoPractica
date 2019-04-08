@@ -82,7 +82,7 @@ namespace EjercitoPractica1.Models
             throw new NotImplementedException();
         }
 
-        public void mostrarPrecio()
+        public float mostrarPrecio()
         {
             throw new NotImplementedException();
         }

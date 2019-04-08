@@ -7,7 +7,7 @@ namespace EjercitoPractica1.Models
 {
     public class Infanteria : IDivision
     {
-        public void capacidadMilitar()
+        public float capacidadMilitar()
         {
             throw new NotImplementedException();
         }

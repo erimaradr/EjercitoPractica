@@ -93,22 +93,22 @@ namespace EjercitoPractica1.Models
 
         public double capacidadDeDestruccion()
         {
-            throw new NotImplementedException();
+            return PotenciaFuego1;
         }
 
         public double capacidadDeMovimineto()
         {
-            throw new NotImplementedException();
+            return Velocidad1;
         }
 
-        public void mostrarPrecio()
+        public float mostrarPrecio()
         {
-            throw new NotImplementedException();
+            return Precio1;
         }
 
         public double resistenciaAlAtaque()
         {
-            throw new NotImplementedException();
+            return Blindaje1;
         }
     }
 }
