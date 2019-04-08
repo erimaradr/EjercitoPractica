@@ -7,6 +7,6 @@ namespace EjercitoPractica1.Models
 {
     public interface IPrecio
     {
-        void mostrarPrecio();
+        float mostrarPrecio();
     }
 }
