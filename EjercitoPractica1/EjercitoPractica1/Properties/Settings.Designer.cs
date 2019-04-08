@@ -26,7 +26,8 @@ namespace EjercitoPractica1.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\desarrollo;Initial Catalog=Ejercito;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\DESARROLLO;Initial Catalog=Ejercito;Persist Security Info=True;User" +
+            " ID=sa;Password=P@ssw0rd")]
         public string Valor {
             get {
                 return ((string)(this["Valor"]));

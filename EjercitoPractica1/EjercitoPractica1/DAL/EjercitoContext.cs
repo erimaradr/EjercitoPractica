@@ -16,16 +16,12 @@ namespace EjercitoPractica1.DAL
 
         public EjercitoContext() : base("EjercitoContext")
         {
-
-
+           
         }
 
         public DbSet<InfanteriaBasica> infanteriaBasica { get; set; }
-       
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
-        }
+
+
     }
 }

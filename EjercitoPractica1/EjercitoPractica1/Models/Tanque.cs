@@ -5,6 +5,7 @@ using System.Text;
 
 namespace EjercitoPractica1.Models
 {
+
     public class Tanque : IPrecio, IBlindado, IDestructor, IMovil
     {
         private string ID;
@@ -30,14 +31,15 @@ namespace EjercitoPractica1.Models
             throw new NotImplementedException();
         }
 
-        public float mostrarPrecio()
-        {
-            return Precio;
+        public void mostrarPrecio(){
+
         }
 
         public double resistenciaAlAtaque()
         {
             throw new NotImplementedException();
         }
+
+
     }
 }

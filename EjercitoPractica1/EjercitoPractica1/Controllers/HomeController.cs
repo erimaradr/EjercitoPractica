@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EjercitoPractica1.DAL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,8 +9,11 @@ namespace EjercitoPractica1.Controllers
 {
     public class HomeController : Controller
     {
+      //  EjercitoContext j = new EjercitoContext();
+               
         public ActionResult Index()
         {
+ 
             return View();
         }
 
